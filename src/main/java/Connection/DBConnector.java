@@ -10,7 +10,7 @@ public class DBConnector {
     private static Connection connection;
 
     public static void main(String[] args) throws SQLException {
-        String jdbcUrl = "jdbc:mysql://localhost:3306/payroll_service?useSSl=false";
+        String jdbcUrl = "jdbc:mysql://localhost:3306/employee_payroll?useSSl=false";
         String userName = "root";
         String password = "Kajal@95";
 

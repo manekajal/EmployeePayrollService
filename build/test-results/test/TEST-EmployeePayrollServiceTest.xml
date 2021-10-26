@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-26T11:21:30" hostname="KAJAL-PC" time="0.869">
+  <properties/>
+  <testcase name="givenEmployeePayrollInDB_WhenRetrived_ShouldMatchEmployeeCount()" classname="EmployeePayrollServiceTest" time="0.869"/>
+  <system-out><![CDATA[ Connecting to databasejdbc:mysql://localhost:3306/payroll_service?useSSl=false
+ Connection is sucessfulcom.mysql.cj.jdbc.ConnectionImpl@217d0ef6
+1   Kajal 123445  2021-10-12
+2   Teju 123766  2021-01-13
+3   Ashu 23445  2020-03-13
+4   BILL 1000000  2018-01-03
+5   Mark 2000000  2019-11-13
+6   Charlie 3000000  2020-05-21
+7   John 25000  2020-02-28
+8   John 30000  2021-01-29
+9   John 30000  2021-01-29
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
